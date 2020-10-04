@@ -1,0 +1,155 @@
+* {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+main {
+  background-color: blue;
+}
+
+header > p {
+  font-family: "Courier New", serif;
+}
+
+header, footer {
+  background-color: green;
+  margin: 0;
+  padding: 10px;
+}
+
+header > p, footer > p {
+  margin: 0;
+  text-align: center;
+
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+h2 {
+  word-spacing: 14px;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+h2 > span {
+  font-size: 1em;
+  color: red;
+}
+
+h3{
+  margin: 0;
+  font-size: 20px;
+}
+
+main {
+  max-width: 526px;
+  padding: 20px 25px 5px 25px;
+  margin: auto;
+}
+
+main > div > p {
+  margin-bottom: 0;
+}
+
+nav {
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+a {
+  color: red;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+ul > li{
+  margin-bottom: 10px;
+}
+ul > li:nth-child(2){
+  color: cyan;
+  letter-spacing: 6px;
+}
+
+table {
+  border-spacing: 3px;
+}
+
+table td {
+  vertical-align: bottom;
+  align-items: center;
+}
+
+table, th, td {
+  border: 1px solid white;
+  font-size: 1.125rem;
+}
+
+table tr:first-child td:first-child {
+  background-color: green;
+}
+
+table tr:last-child td:last-child {
+  background-color: red;
+  text-align: center;
+}
+
+tr {
+  color: white;
+}
+
+td {
+  height: 30px;
+  width: 40px;
+  text-align: center;
+}
+
+.figure {
+  width: 100px;
+  height: 100px;
+  border: solid 5px white;
+  border-radius: 15px 0 25px 0;
+  float: left;
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.foo {
+  margin-top: 10px;
+}
+.foo> p{
+  margin: 10px 0
+}
+
+.italic{
+  font-style: italic;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.underlined{
+  text-decoration: underline;
+  padding-bottom: 30px;
+}
+
+.line-through{
+  text-decoration: line-through;
+}
+
+.foo>div{
+  display: flex;
+  justify-content: space-between;
+}
+img{
+  margin-top: 10px;
+  float: right;
+}
